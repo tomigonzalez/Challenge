@@ -15,7 +15,7 @@ const Render = (props: Props) => {
       className="mb-4 p-4 rounded"
       style={{ animation: `fadeIn 0.5s ease forwards ${props.index * 0.1}s` }}
     >
-      <h2 className="text-[36px]">{props.title}</h2>
+      <h2 className="lg:text-[36px] text-[17px]">{props.title}</h2>
       <div className="flex flex-col gap-4 ">
         <div className="flex flex-row gap-6 items-center">
           <span
@@ -48,7 +48,7 @@ const Render = (props: Props) => {
         <img
           src={props.url}
           alt={props.title}
-          className="mt-2 w-[974px] h-[530px] border-radius[20px]"
+          className="mt-2 lg:w-[974px] lg:h-[530px] h-[330px] w-[574px] border-radius[20px]"
         />
       )}
     </li>

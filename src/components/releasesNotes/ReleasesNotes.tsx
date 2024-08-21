@@ -6,15 +6,15 @@ const ReleasesNotes = () => {
   return (
     <section className="lg:w-1/3 lg:flex-none flex justify-center w-full">
       <div className="lg:fixed w-4/5 lg:w-auto h-full">
-        <h1 className=" text-[25px] text-gray-letters-title font-bold">
+        <h1 className=" lg:text-[25px]  text-gray-letters-title font-bold">
           All releases notes
         </h1>
         <ul className="lg:w-11/12 lg:h-96 lg:overflow-y-auto">
           {dataTimeline.releasesNotes.map((item, index) => (
             <li
-              className={` text-[19px] font-semibold  ${
+              className={` lg:text-[19px] text-[14px] font-semibold  ${
                 index === 0 ? "text-gray-letters-title" : "text-gray-letters"
-              } hover:text-gray-letters-title cursor-pointer`}
+              } hover:text-gray-letters-title cursor-pointer mb-2`}
               key={index}
             >
               Release {item.time}:
