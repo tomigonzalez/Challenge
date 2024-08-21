@@ -48,7 +48,7 @@ const Render = (props: Props) => {
         <img
           src={props.url}
           alt={props.title}
-          className="mt-2 lg:w-[974px] lg:h-[530px] h-[330px] w-[574px] border-radius[20px]"
+          className="mt-2 lg:w-[974px] lg:h-[530px] h-[176px] w-[267px] border-radius[20px]"
         />
       )}
     </li>
