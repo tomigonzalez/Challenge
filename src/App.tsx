@@ -8,7 +8,7 @@ function App() {
   return (
     <article className="w-full h-full flex flex-col items-center font-open-sans">
       <Banner />
-      <section className="flex lg:flex-row flex-col lg:pt-[210px]  pt-[105px] ">
+      <section className="flex w-full lg:flex-row flex-col lg:pt-[210px]  pt-[105px] ">
         <ReleasesTimeline />
         <ReleasesNotes />
       </section>
