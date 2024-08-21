@@ -38,7 +38,7 @@ const Render = (props: Props) => {
       {props.notes.length > 0 && (
         <ul className="mt-2 list-disc list-inside ">
           {props.notes.map((note, noteIndex) => (
-            <li key={noteIndex} className="text-[14px] font-semibold m-2">
+            <li key={noteIndex} className="text-[14px] lg:font-semibold m-2">
               {note}
             </li>
           ))}
